@@ -16,7 +16,7 @@
 
 /*header*/
 .header-top{
-    background-color: red;
+    background-color: gainsboro;
     padding: 15px 0;
 }
 
@@ -27,7 +27,7 @@
 
 .header-top > .container{
     display: flex;
-    background-color: antiquewhite;
+    background-color: orange;
 }
 
 .header-top .logo{
@@ -54,9 +54,50 @@
 
 .header-bottom > .container{
     display: flex;
-    background-color: beige;
-    padding: 200px;
+    background-color: palevioletred;
+    max-width: 900px;
+    min-height: 400px;
+    border: 1px dashed blue;
+
+}
+
+/*main*/
+section{
+    padding: 50px;
+}
+
+.bkg-grey{
+    background-color: grey;
+}
+
+.bigcolumn{
+    background-color: #1e90ff;
+    width: 60%;
+    min-height: 400px;
+    border: 1px dashed white;
     
 
 }
 
+.littlecolumn{
+    background-color: #ffc0cb;
+    width: 40%;
+    min-height: 400px;
+    border: 1px dashed white;
+
+
+}
+
+section > .container{
+    display: flex;
+    
+}
+
+.column{
+    display: flex;
+    background-color: green;
+    width: 100%;
+    min-height: 400px;
+    border: 1px dashed white;
+
+}
