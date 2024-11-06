@@ -6,3 +6,49 @@
     box-sizing: border-box;
 }
 
+/*general*/
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*header*/
+.header-top{
+    background-color: red;
+    padding: 15px 0;
+}
+
+.header-bottom{
+    background-color: blue;
+    padding: 30px 0;
+}
+
+.header-top > .container{
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.header-top .logo{
+    width: 20%;
+    text-align: left;
+}
+
+.header-top .login{
+    width: 20%;
+    text-align: right;
+}
+
+.header-top nav{
+    width: 60%;
+    text-align: center;
+}
+
+.header-top .logo,
+.header-top nav,
+.header-top .login{
+    border: 1px dashed black;
+    padding: 6px;
+} 
+
