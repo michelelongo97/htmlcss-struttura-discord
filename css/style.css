@@ -101,3 +101,63 @@ section > .container{
     border: 1px dashed white;
 
 }
+
+/*footer*/
+footer{
+    background-color: #3a3737;
+
+}
+footer > .container{
+    display: flex;
+    padding: 15px 0;
+}
+.col1{
+    width: 30%;
+    background-color: #f08080;
+    min-height: 400px;
+    border: 1px dashed black;
+
+}
+
+.col2{
+    display: flex;
+    width: 70%;
+    background-color: #20b2aa;
+    min-height: 400px;
+    border: 1px dashed white;
+
+
+}
+
+.col-inner{
+    
+    width: 25%;
+    border: 1px dashed white;
+    
+
+}
+
+.footer-bottom{
+    background-color: #7fffd4;
+    width: 90%;
+    border: 1px dashed white;
+    min-height: 50px;
+    margin: auto;
+}
+
+.footer-bottom > .container{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.logo{
+    background-color: white;
+    padding: 6px 14px;
+}
+
+.btn{
+    background-color: white;
+    padding: 6px 14px;
+}
+
