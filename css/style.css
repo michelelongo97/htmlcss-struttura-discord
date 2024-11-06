@@ -52,3 +52,11 @@
     padding: 6px;
 } 
 
+.header-bottom > .container{
+    display: flex;
+    background-color: beige;
+    padding: 200px;
+    
+
+}
+
