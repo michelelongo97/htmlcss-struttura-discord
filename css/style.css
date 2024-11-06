@@ -151,7 +151,7 @@ footer > .container{
     justify-content: space-between;
 }
 
-.logo{
+#logo{
     background-color: white;
     padding: 6px 14px;
 }
